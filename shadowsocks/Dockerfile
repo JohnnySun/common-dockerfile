@@ -11,6 +11,8 @@ RUN apt-get update \
 
 ADD entrypoint.sh /entrypoint.sh
 
+RUN chomd +x /entrypoint.sh
+
 ENTRYPOINT ["/entrypoint.sh"]
 
     

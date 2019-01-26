@@ -1,4 +1,4 @@
-FORM debian:latest
+FROM debian:latest
 
 LABEL maintainer="Johnny Sun <bmy001@gmail.com>"
 
